@@ -1,0 +1,77 @@
+.searchBar_container {
+  max-width: 900px;
+  background: rgba(23, 17, 53, 0.95); /* Dark purple background like in image */
+  margin: 80px auto 40px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+}
+
+.searchBar_tabs {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.searchBar_tabs span {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.searchBar_tabs .active {
+  opacity: 1;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.searchBar_search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+
+.searchBar_select {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 40px 0 0 40px;
+  cursor: pointer;
+  font-weight: 500;
+  min-width: 110px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  color: #000;
+  border-right: 1px solid #ccc;
+}
+
+.searchBar_input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 0;
+  color: #000;
+}
+
+.searchBar_button {
+  background-color: #21bf73; /* Green color */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchBar_button:hover {
+  background-color: #1aa45c;
+}
