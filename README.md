@@ -149,7 +149,7 @@ We welcome contributions to make GradRent better! Whether it's bug fixes, new fe
 - **Founder/Developer**: [Udayraj Tripathi]  
   Email: [udayrajtripathi534@gmail.com]  
   LinkedIn: [https://www.linkedin.com/in/udayraj-tripathi-749b8527a]  
-  Website: [gradrent-97509.web.app]
+  Website: [https://gradrent-97509.web.app]
 
 For business inquiries, partnerships, or feedback: Reach out via email or GitHub Discussions.
 
